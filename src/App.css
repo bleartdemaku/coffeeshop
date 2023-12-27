@@ -1,8 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 .background {
-  background-image: url("assets/coffeshop.jpg");
+  background-image: url("assets/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
