@@ -1,6 +1,9 @@
-
-
 .btn {
-    background-color: black;
-    color: var(--link-color);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 22px;
+  font-family: var(--font-raleway);
+  font-weight: 500;
+  padding: 16px 30px;
+  cursor: pointer;
 }
