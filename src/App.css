@@ -4,7 +4,8 @@
 }
 
 .background {
-  background-image: url("assets/bg2.jpg");
+  background-image: url("assets/backgound.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }

@@ -1,0 +1,11 @@
+.sponsors {
+  height: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sponsors img {
+  height: 40px;
+}

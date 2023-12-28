@@ -2,6 +2,7 @@ import Header from "./containers/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 
 import "./App.css";
+import Sponsors from "./components/Sponsors/Sponsors";
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <div className="App">
         <div className="background">
           <Navbar />
-          {/* <Header /> */}
+          <Header />
         </div>
+        <Sponsors />
       </div>
     </>
   );

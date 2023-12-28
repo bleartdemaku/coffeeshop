@@ -19,7 +19,7 @@ const Header = () => {
           purus sit amet luctus venenatis, lectus magna fringilla urna, <br />
           porttitor rhoncus dolor purus non enim
         </p>
-        <CustomButton title={"SHOP NOW"} />
+        <CustomButton className="btn" title={"SHOP NOW"} />
       </div>
       <div className="header__photos">
         <img className="img1" src={coffee1} alt="coffee" />
