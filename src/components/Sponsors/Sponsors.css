@@ -9,3 +9,35 @@
 .sponsors img {
   height: 40px;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* Large devices (laptops/desktops, 1400px and down) */
+@media only screen and (max-width: 1700px) {
+  .sponsors {
+    height: 200px;
+  }
+}
+/* Medium devices (landscape tablets, 1200px and down) */
+@media only screen and (max-width: 1600px) {
+  .sponsors {
+    height: 200px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 1300px) {
+  .sponsors {
+    height: 150px;
+  }
+}
+/* Extra small devices (phones, 350px and down) */
+@media only screen and (max-width: 800px) {
+  .sponsors {
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sponsors {
+    height: 100px;
+  }
+}
